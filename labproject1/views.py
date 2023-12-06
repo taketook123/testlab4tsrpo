@@ -394,3 +394,5 @@ def post_ucat():
                 "is_public": new_ucategory.is_public
             }
 
+            return jsonify(record_data), 200
+
