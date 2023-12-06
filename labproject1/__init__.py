@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 #app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:SomePassword@localhost/test"
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://testlab3db_q1ss_user:UMK3TtGSlxbwmixK5QPVAN20CQVsW74x@dpg-cles1ac15k1s73f5kshg-a/testlab3db_q1ss"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://lab4testserv_user:JNTiH7jPXqzWIP5EA3CXkcnylV2CVkwt@dpg-clo65mv5felc73a2tqh0-a/lab4testserv"
 app.config['JWT_SECRET_KEY'] = os.environ('JWT_SECRET_KEY')
 app.config['JWT_ALGORITHM'] = "HS256"
 db = SQLAlchemy(app)
